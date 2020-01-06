@@ -4,7 +4,7 @@ import numpy as np
 cap = cv2.VideoCapture(0) # '0'  if there is single camera connected
                           #otherwise index of device
 fourcc= cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi' , fourcc, 20.0,(640,480))
+out = cv2.VideoWriter('video_file.avi' , fourcc, 20.0,(640,480))
 while True:
     ret, frame= cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
