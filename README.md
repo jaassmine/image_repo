@@ -1,2 +1,6 @@
 # image_repo
-read and display an image
+Image processing :
+  reading an image
+  displaying an image
+  drawing on image
+  writing on image
