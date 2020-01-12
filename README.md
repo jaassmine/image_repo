@@ -4,3 +4,5 @@ Image processing :
   displaying an image,
   drawing on image,
   writing on image,
+  some arithmetics and masking,
+  
